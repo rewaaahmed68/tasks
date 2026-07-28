@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width = device-width , initial=1.0">
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend> Student registration form </legend>
+
+            <div>
+                <label> Name : </label>
+                <input type="text" maxlength="5" required>
+
+                <label> Email : </label>
+                <input type="email" required pattern="[a-zA-Z0,9,_%+-]+@">
+            </div>
+            <br>
+            <div>
+                <label> Password : </label>
+                <input type="password" required pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*]).{8,}" title="1 uppercase , 1 lowercase , number , special character">
+                <label>Mobile : </label>
+                <input pattern="01[0125][0-9]{8}" required title="015 or 012 or 011 or 010 , contain 11 number">
+            </div>
+            <br>
+            <div>
+                <label>Address : </label>
+                <input type="text" pattern="[A-Za-z-\s]+" title=" only letters" required>
+                <label>Age : </label>
+                <input type="number" min="19" max="30">
+            </div>
+            <br>
+            <div>
+                <label for="course"> choose your courses</label>
+                <input type="text" id="course" name="course" list="courses-list" required>
+                <datalist id="courses-list">
+                    <option value="HTML">
+                    <option value="CSS">
+                    <option value="JavaScript">
+                    <option value="Python">
+                    <option value="PHP">
+                    <option value="React">    
+                </datalist>
+            </div>
+            <br>
+            <div>
+                <label> Gender : </label>
+                <input value="Male" type="radio" name="Gender">
+                <label>Male</label>
+                <input value="Female" type="radio" name="Gender">
+                <label>Female</label>
+            </div>
+            <br>
+            <div>
+                <label for>limit : </label>
+                <input type="range" name="price" min="300" max="500">
+                <input type="file" accept=".png,image/png" required>
+            </div>
+            <br>
+            <div>
+                <input type="datetime-local" required>
+            </div>
+            <br>
+            <div>
+                <textarea name="comment" placeholder="Enter your comment...." title=" Enter your comment " rows="5" cols="40">
+                </textarea>
+            </div>
+            <input type="submit">
+            <input type="reset">
+        </fieldset>
+    </form>
+</body>
+</html>
