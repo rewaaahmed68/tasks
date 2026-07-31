@@ -28,17 +28,16 @@ section {
     width: 50%;
     padding: 100px 35px; 
     text-align: center; 
+    
 }
 
 .card h1 {
     color: #ffffff;
-    font-size: 32px;
     margin-bottom: 20px;
 }
 
 .card p {
     color: #ffffff;
-    font-size: 14px;
 }
 
 .form {
