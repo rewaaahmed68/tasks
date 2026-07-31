@@ -1,0 +1,41 @@
+.first {
+    color: blue;
+    background-color: rgb(231, 227, 227);
+    padding: 1%;
+    margin: 1%;
+    border: solid darkblue;
+    border-radius:10px ;
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+
+}
+.second {
+    color :blueviolet;
+    background-color: rgb(231, 227, 227);
+    padding: 1%;
+    margin: 4%;
+    border: solid rgb(54, 27, 54);
+    border-radius: 10px;
+    width: 25%;
+    display: inline-block;
+}
+h1 {
+    text-align: center;
+}
+.third {
+    color :rgb(226, 162, 43);
+    background-color: rgb(231, 227, 227);
+    padding: 1%;
+    margin: 1%;
+    border: solid rgb(156, 79, 43);
+    border-radius: 10px;
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+}
+.link {
+    background-color: rgb(147, 210, 235);
+
+
+}
