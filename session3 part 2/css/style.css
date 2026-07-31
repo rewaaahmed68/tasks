@@ -56,7 +56,6 @@ section {
 
 .form label {
     display: block;
-    font-size: 11px;
     color: #555555;
     text-align: left;
     margin-bottom: 15px;
@@ -72,7 +71,6 @@ section {
     background-color: #eeeeee;
     border: none;
     padding: 11px 14px;
-    font-size: 13px;
     border-radius: 2px;
     color: #333333;
 }
@@ -95,5 +93,4 @@ section {
     padding: 10px 40px;
     border-radius: 20px;
     font-weight: bold;
-    font-size: 12px;
 }
