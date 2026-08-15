@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+   width: 100%;
+    margin: 188px auto;
+    padding: 76px;
+    background-color: black;
+}
+img {
+    width: 20%;
+    animation-name: MovingCar;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes MovingCar {
+    0% {
+        transform: translateX(0px);
+    }
+    100% {
+        transform: translateX(1200px);
+    }
+   
+
+    
+}
