@@ -1,0 +1,445 @@
+@media screen and (min-width: 700px) and (max-width: 1024px) {
+
+   .container {
+        padding: 20px 30px;
+    }
+
+    li {
+        margin-left: 20px;
+    }
+
+    .link a {
+        font-size: 16px;
+    }
+
+    section {
+        width: 90%;
+        padding: 30px 15px;
+    }
+
+    /* Section 1 */
+    .head p {
+        width: 80%;
+    }
+
+    .img-head img {
+        height: 250px;
+    }
+
+    /* Section 2 */
+    .welldoing-section {
+        width: 90%;
+        flex-direction: column;
+        padding: 40px 25px;
+        text-align: center;
+    }
+
+    .content-side {
+        width: 100%;
+    }
+
+    .cards-container {
+        justify-content: center;
+        row-gap: 20px;
+    }
+
+    .card {
+        width: 48%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .icon-box {
+        margin: 0 auto 15px auto;
+    }
+
+    .img-section2 {
+        display: none; 
+    }
+
+    /* Section 3 */
+    .produces {
+        width: 90%;
+        row-gap: 20px;
+    }
+
+    .img-section3 {
+        width: 48%;
+    }
+
+    .img-section3 img {
+        width: 100%;
+        height: 350px;
+    }
+
+    .side-section3 {
+        width: 50%;
+        margin: 0;
+        text-align: left;
+    }
+
+    .list-section3 {
+        display: flex;
+        flex-direction: column;
+        row-gap: 15px;
+    }
+
+    .list-section3 img {
+        vertical-align: middle;
+    }
+
+    .list-section3 p {
+        width: 80%;
+        margin-left: 10px;
+        margin-bottom: 0;
+    }
+
+    /* Section 4 */
+    .whatyoueat {
+        width: 90%;
+        flex-direction: column;
+        padding: 40px 20px;
+        text-align: center;
+    }
+
+    .img-section4 {
+        display: none; 
+    }
+
+    .side-section4 {
+        width: 100%;
+        justify-content: center;
+        row-gap: 20px;
+    }
+
+    .side-section4 h2 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .card-section4 {
+        width: 45%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-section4 i {
+        margin-right: 0;
+    }
+
+    /* Section 5  */
+    .head-section5 p {
+        width: 80%;
+    }
+
+    .cardupground {
+        width: 90%;
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 20px;
+        padding: 30px 20px;
+        margin: -100px auto 0 auto;
+    }
+
+    .plant {
+        width: 40%; 
+        margin-bottom: 10px;
+    }
+
+    /* Footer */
+    footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 40px 20px;
+        row-gap: 20px;
+    }
+
+    .logo-footer {
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 0;
+    }
+
+    .link-footer {
+        width: 100%;
+    }
+
+    .link-footer ul {
+        justify-content: center;
+    }
+
+    .link-footer li {
+        margin: 0 15px;
+    }
+
+    .media {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .media i {
+        margin: 0 10px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    .container {
+        padding: 15px 25px;
+    }
+
+    .link ul {
+        display: none; 
+    }
+
+    .menu-img {
+        display: block; 
+    }
+
+    /* Section 1  */
+    section {
+        width: 90%;
+        padding: 45px 10px;
+        margin: 20px auto;
+    }
+
+    .head h1 {
+        font-size: 28px;
+    }
+
+    .head p {
+        width: 95%;
+        font-size: 13px;
+        margin-bottom: 20px;
+    }
+
+    .img-head {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .img-head img {
+        width: 100%;
+        height: 250px;
+        margin-bottom: 15px; 
+    }
+
+    .img-head img:last-child {
+        margin-bottom: 0;
+    }
+
+    /*  Section 2  */
+    .welldoing-section {
+        width: 90%;
+        padding: 35px 20px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .content-side {
+        width: 100%;
+    }
+
+    .content-side h2 {
+        font-size: 28px;
+        margin-bottom: 25px;
+    }
+
+    .cards-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 100%;
+        margin-bottom: 25px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .card:last-child {
+        margin-bottom: 0;
+    }
+
+    .icon-box {
+        margin: 0 auto 15px auto;
+    }
+
+    .img-section2 {
+        display: none; 
+    }
+
+    /*  Section 3 */
+    .produces {
+        flex-direction: column;
+        width: 90%;
+        margin: 30px auto;
+    }
+
+    .img-section3 {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .img-section3 img {
+        width: 100%;
+        height: 350px;
+    }
+
+    .side-section3 {
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+
+    .side-section3 h2 {
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+
+    .side-section3 p {
+        width: 100%;
+        font-size: 13px;
+        margin-bottom: 25px;
+    }
+
+    .list-section3 {
+        text-align: left;
+    }
+
+    .list-section3 p {
+        width: 78%;
+        font-size: 12px;
+        margin-left: 10px;
+        margin-bottom: 15px;
+    }
+
+    /*  Section 4 */
+    .whatyoueat {
+        width: 90%;
+        padding: 35px 20px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .img-section4 {
+        display: none; 
+    }
+
+    .side-section4 {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .side-section4 h2 {
+        width: 100%;
+        font-size: 28px;
+        margin-bottom: 25px;
+    }
+
+    .card-section4 {
+        width: 100%;
+        margin-bottom: 25px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .card-section4:last-child {
+        margin-bottom: 0;
+    }
+
+    .card-section4 i {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+    /*  Section 5  */
+    .head-section5 {
+        padding: 50px 15px 140px 15px;
+    }
+
+    .head-section5 h2 {
+        font-size: 26px;
+    }
+
+    .head-section5 p {
+        width: 95%;
+        font-size: 13px;
+    }
+
+    .cardupground {
+        width: 90%;
+        flex-direction: column;
+        align-items: center;
+        padding: 35px 20px;
+        margin: -90px auto 0 auto;
+    }
+
+    .plant {
+        width: 100%;
+        margin-bottom: 25px; 
+        text-align: center;
+    }
+
+    .plant:last-child {
+        margin-bottom: 0;
+    }
+
+    /*  Footer  */
+    footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 40px 20px;
+    }
+
+    .logo-footer {
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 25px;
+    }
+
+    .logo-footer i {
+        margin-right: 8px;
+    }
+
+    .link-footer {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .link-footer ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 246px;
+        margin: 0 auto;
+    }
+
+    .link-footer li {
+        width: 45%;
+        margin: 6px 0;
+        text-align: center;
+    }
+
+    .media {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .media a {
+        margin: 0 10px;
+    }
+
+    .media i {
+        margin-right: 0;
+    }
+}
