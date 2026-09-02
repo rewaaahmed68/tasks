@@ -1,10 +1,10 @@
 // let changeColor = (element) => {
 //     let listItems = document.querySelectorAll("li")
 //     listItems.forEach((item) => {
-//         item.classList.remove("bg-danger", "text-white")
+//         item.classList.remove("text-danger")
 //     }
 // )
-//     element.classList.add("bg-danger", "text-white")
+//     element.classList.add("text-danger")
 // }
 
 
